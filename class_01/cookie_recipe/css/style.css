@@ -1,20 +1,29 @@
 body {
-	color: #ffe;
-	background-color: #000;
-	background: url('http://www.mugz.net/chocolate_chip_cooke.png') 0px 0px repeat #000;
-	font: 400 14px/16px Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #FFE;
+	font: normal 14px/16px Arial, Helvetica, sans-serif;
+	border: 10px solid #000;
+	padding: 10px;
 }
 
 h1, h2 {
 	font-size: 18px;
 }
 
-h2, p, div {
+h2 {
+	margin-top: 20px;
+}
+
+p, div {
 	margin-top: 40px;
 }
 
 h3 {
 	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
 }
 
 ol {
@@ -27,4 +36,20 @@ ol {
 
 a {
 	color: #900;
+}
+
+@media (min-width: 1120px) {
+	.img-container {
+		width: 50%;
+	}
+}
+
+.img-container {
+	display: block;
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+
+.img-container img {
+	width: 100%;
 }
