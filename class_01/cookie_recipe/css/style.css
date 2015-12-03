@@ -2,6 +2,7 @@ body {
 	color: #ffe;
 	background-color: #000;
 	background: url('http://www.mugz.net/chocolate_chip_cooke.png') 0px 0px repeat #000;
+	font: 400 14px/16px Arial, Helvetica, sans-serif;
 }
 
 h1, h2 {
@@ -10,6 +11,10 @@ h1, h2 {
 
 h2, p, div {
 	margin-top: 40px;
+}
+
+h3 {
+	font-size: 16px;
 }
 
 ol {
