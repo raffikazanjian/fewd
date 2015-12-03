@@ -1,0 +1,25 @@
+body {
+	color: #ffe;
+	background-color: #000;
+	background: url('images/chocolate-chip-cookie.html') 0px 0px repeat #000;
+}
+
+h1, h2 {
+	font-size: 18px;
+}
+
+h2, p, div {
+	margin-top: 40px;
+}
+
+ol {
+	margin-bottom: 20px;
+}
+
+.nutrition {
+	color: #887;
+}
+
+a {
+	color: #900;
+}
