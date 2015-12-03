@@ -1,33 +1,41 @@
 body {
 	color: #000;
 	background-color: #FFE;
-	font: normal 14px/16px Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
 	border: 10px solid #000;
 	padding: 10px;
 }
 
 h1, h2 {
-	font-size: 18px;
+	font-size: .8em;
 }
 
 h2 {
-	margin-top: 20px;
+	margin: 20px 0px 10px;
 }
 
 p, div {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 h3 {
-	font-size: 16px;
+	font-size: .65em;
 }
 
-h1, h2, h3 {
-	font-weight: 400;
+li, div, p {
+	font-size: .6em;
+}
+
+div h3 {
+	font-size: 1.4em;
+	margin: 0 0 10px;
 }
 
 ol {
-	margin-bottom: 20px;
+	margin: 0px 0px 20px;
 }
 
 .nutrition {
@@ -36,12 +44,6 @@ ol {
 
 a {
 	color: #900;
-}
-
-@media (min-width: 1120px) {
-	.img-container {
-		width: 50%;
-	}
 }
 
 .img-container {
