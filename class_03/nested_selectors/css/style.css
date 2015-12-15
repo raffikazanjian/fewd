@@ -1,0 +1,33 @@
+body {
+	background-color: #666699;
+	color: #fff;
+}
+
+blockquote {
+	background-color: #333399;
+	padding: 10px;
+	font-style: italic;
+}
+
+blockquote em {
+	font-style: normal;
+	text-decoration: underline;
+	color: #ffff00;
+}
+
+blockquote, em {
+	font-weight: bold;
+}
+
+.intense{
+	background: #666633;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.red-box {
+	background-color: red;
+	padding: 10px;
+}

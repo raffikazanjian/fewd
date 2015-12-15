@@ -1,0 +1,19 @@
+div {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#notification {
+	background-color: #ff33cc;
+}
+
+.message {
+	background-color: #98FB98;
+	color: #fff;
+	border: 1px solid #A9A9A9;
+}
+
+.error {
+	background-color: #f00;
+	border: 5px solid #000;
+}
