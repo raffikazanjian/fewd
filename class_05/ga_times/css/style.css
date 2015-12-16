@@ -1,0 +1,100 @@
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  background: #e9eaed;
+}
+
+.container {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Times New Roman';
+	color: #000;
+	margin: 0;
+}
+
+h2 {
+	font-weight: bold;
+	color: #000;
+	margin: 0;
+	padding: 20px;
+}
+
+aside h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-style: italic;
+	padding: 0 20px;
+	color: gray;
+	font-size: 16px;
+	margin: 0;
+}
+
+p {
+	padding: 0 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 0 0 10px 20px;
+	font-size: 12px;
+}
+
+header, article, aside, footer {
+	background-color: #fff;
+}
+
+header {
+	border-bottom: 2px solid #000;
+	margin-bottom: 20px;
+	overflow: auto;
+	padding: 20px;
+}
+
+header nav {
+	float: left;
+}
+
+header #weather {
+	float: right;
+}
+
+article {
+	float: left;
+	width: 740px;
+	margin-bottom: 20px;
+}
+
+aside {
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+footer {
+	clear: left;
+	height: 90px;
+	padding: 20px;
+	overflow: auto;
+}
+
+footer p {
+	float: left;
+	margin: 0;
+}
+
+footer a {
+	float: right;
+}
