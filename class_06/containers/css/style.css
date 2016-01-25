@@ -1,0 +1,40 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+header {
+  background: gray;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  border: 5px dotted red;
+}
+
+section {
+  float: left;
+  width: 740px;
+}
+
+aside {
+  float: left;
+  width: 180px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+aside div.post {
+  margin-bottom: 50px
+}
+
+aside img {
+  width: 100%;
+}
+
+footer {
+  background: red;
+  clear: both;
+}
